@@ -1,0 +1,96 @@
+/*  Navbar */
+.navbar-brand {
+    font-family: Montserrat;
+    font-size: 32px;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/coffeeshop.jpeg);
+    background-size: cover;
+    height: 540px;
+    text-align: left;
+}
+
+.jumbotron .display-4 {
+    color:white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 0.6);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/*  utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: black !important;
+        text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0, 0.7);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content:'';
+        display: block;
+        border-bottom: 3px solid #0b36dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        height: 640px;
+    }
+
+    .jumbotron .display-4  {
+        font-size: 62px;
+    }
+
+    /* Workingspace */
+    .workingspace {
+        margin-top: 150px;
+    }
+
+    .workingspace h3 {
+        font-size: 350px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer p {
+        color: #acacac;
+        font-size: 25px;
+    }
+    
+
+
+}
